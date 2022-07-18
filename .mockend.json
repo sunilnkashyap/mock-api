@@ -15,7 +15,7 @@
       }
     },
     "image": {
-      "regexp": "https://picsum\\.photos/id/[0-9]{5}/190/300"
+      "regexp": "https://picsum\\.photos/id/[0-9]{3}/190/300"
     },
     "statusMessage": {
       "string": [
