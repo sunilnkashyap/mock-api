@@ -7,8 +7,15 @@
      
       }
     },
-    "avatarUrl": {
-      "regexp": "https://picsum\\.photos/190/300\?index=[0-9]{5}"
+        "description": {
+            "loremWords": {
+        "minLength": 10,
+        "maxLength": 40
+     
+      }
+    },
+    "image": {
+      "regexp": "https://picsum\\.photos/id/[0-9]{5}/190/300"
     },
     "statusMessage": {
       "string": [
