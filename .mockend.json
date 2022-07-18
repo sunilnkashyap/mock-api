@@ -1,26 +1,19 @@
 {
   "Discover": {
     "name": {
-"loremWords": { "minLength": 2, "maxLength": 5 }
+      "loremWords": { "minLength": 2, "maxLength": 5 }
     },
-        "description": {
-          "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+    "description": {
+      "loremParagraphs": { "minLength": 200, "maxLength": 500 }
     },
     "image": {
       "regexp": "https://picsum\\.photos/id/[0-9]{3}/190/300"
-    },
-    "statusMessage": {
-      "string": [
-        "working from home",
-        "watching Netflix"
-      ]
     },
     "email": {
       "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     },
     "color": {
       "regexp": "#[0-9A-F]{6}"
-    },
-
+    }
   }
 }
