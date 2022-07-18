@@ -1,10 +1,15 @@
 {
-  "User": {
+  "Discover": {
     "name": {
-      "string": {}
+      "string": {
+            "loremWords": {
+        "minLength": 2,
+        "maxLength": 5
+      }
+      }
     },
     "avatarUrl": {
-      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+      "regexp": "https://picsum\\.photos/190/300?index=[0-9]{5}"
     },
     "statusMessage": {
       "string": [
