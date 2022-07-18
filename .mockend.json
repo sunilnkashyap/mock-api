@@ -1,7 +1,7 @@
 {
   "Discover": {
     "name": {
-      "loremWords": { "minLength": 2, "maxLength": 5 }
+      "loremWords": { "minLength": 5, "maxLength": 20 }
     },
     "description": {
       "loremParagraphs": { "minLength": 200, "maxLength": 500 }
