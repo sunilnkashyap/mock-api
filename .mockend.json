@@ -1,11 +1,10 @@
 {
   "Discover": {
     "name": {
-      "string": {
             "loremWords": {
         "minLength": 2,
         "maxLength": 5
-      }
+     
       }
     },
     "avatarUrl": {
